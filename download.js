@@ -1,3 +1,4 @@
+//  for downloading
 var download = document.querySelector(".download")
 
 download.addEventListener("click",function(){

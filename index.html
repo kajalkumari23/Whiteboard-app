@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Whiteboard</title>
     <link rel="stylesheet" href="style.css">
     
 
@@ -13,23 +13,25 @@
     
 </head>
 <body>
-
+    <!-- code for pencil -->
     <div class="tools">
             <div class="pencil">
                     <img src="whiteboard-master/NewIcons/Black_Pencil.svg" alt="sada" class="icons" id="pencil">
                     <div class="pencil-options">
                         <div class="pencil-slider alignSlider">
+                            <!-- code for slider -->
                                 <input type="range" min="2" max="60" id="PencilSlider" value="2" oninput="changeWidth(this.value)" >
                         </div>
                         <div class="pencil-colors">
                             <div class="blue" onclick="penColor('blue')"></div>
                             <div class="red" onclick="penColor('red')"></div>
                             <div class="black" onclick="penColor('black')"></div>
+                            <div class="yellow" onclick="penColor('yellow')"></div>
                         </div>
                     </div>
             </div>
          
-        
+        <!-- code for eraser -->
             <div class="eraser">
                     <img src="whiteboard-master/NewIcons/Eraser.svg" alt="dsfsd" class="icons" id="eraser">
                 <div class="eraser-options">
@@ -38,6 +40,7 @@
                     </div>
                 </div>
             </div>
+            <!-- for sticky notes -->
             <div class="stickyNote">
                 <img src="whiteboard-master/NewIcons/StickyNote.svg" alt="sada" class="icons"  id="note">
             </div>

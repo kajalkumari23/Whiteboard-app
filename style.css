@@ -1,15 +1,19 @@
-/* agr kisi element ko absolute krte ho position me wo root se lega and if agr wo kisi ka child h use relative krke absolute krte ho to wo whase absolute hoga */
+/* agr kisi element ko absolute krte ho position me wo root se lega and if agr wo kisi ka child h use relative krke 
+absolute krte ho to wo whase absolute hoga */
 
-
+/* for icons  */
 .icons{
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
     margin-left: 3rem;
     margin-top: 3rem;
 }
+/* for tools */
 .tools{
     display: flex;
     justify-content: space-evenly;
+    background-color: #e4fbfb;
+    box-shadow: #f7f7f3;
 }
 
 *{
@@ -18,14 +22,14 @@
     /* overflow: hidden; */
     box-sizing: border-box;
 }
-
+/* for icons after clicking */
 .active{
     padding: 1rem;
     border-radius: 3.5rem;
-    background-color: grey;
+    background-color: rgb(186, 230, 237);
 }
 
-.blue,.red,.black{
+.blue,.red,.black,.yellow{
     width: 2.2rem;
     height: 98%;
     border-radius: 100%;
@@ -43,9 +47,13 @@ background-color: #76ff76;
     background-color: black;
 }
 
-.red,.close{
+.red{
     background-color: red;
 }
+.yellow,.close{
+    background-color: hsl(65, 91%, 54%);
+}
+
 
 .pencil-options{
     height: 5rem;
@@ -58,12 +66,12 @@ background-color: #76ff76;
     height: 50%;
     width: 10rem;
 }
-
+/* for diffrent pencil color */
 .pencil-colors{
     padding: 0.1rem 0;
     display: flex;
     justify-content: space-evenly;
-    background-color:darksalmon;
+    background-color:rgb(188, 240, 240);
 }
 
 .pencil-slider{
@@ -82,13 +90,10 @@ background-color: #76ff76;
 .eraser-slider{
     height: 100%;
     width: 100%;
-    background-color: blanchedalmond;
+    background-color: aliceblue;
 
 
 }
-
-
-
 
 
  .pencil,.eraser{
@@ -122,7 +127,7 @@ background-color: #76ff76;
 .bottom{
     width: 100%;
     height: 18rem;
-    background-color: #ffff4d;
+    background-color: #f7f7f3;
 }
 
 .min,.close{
